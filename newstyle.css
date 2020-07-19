@@ -1,13 +1,33 @@
 body{
-    /**margin 0;
-    padding: 0;
-    width: 100%;**/
-    height: 500px;
+    height: 700px;
     display: flex;
+    margin: 3px;
 }
 .wrapper{
-    background-color: khaki;
-    width: 50%;  
+    background-color: rgb(238, 215, 13);
+    width: 50%;
+    height: auto;
+    
+
+}
+.bodyy {
+    
+    margin-top: 180px;
+    width: 20%;
+    padding: 1px;
+    border: 1px solid white;
+    margin-left: 5%;
+}
+.more{
+    color: white;
+}
+
+.body-end{
+    color: white;
+    width: 30px;
+  height: 600px;
+  border: 5px solid rgb(255, 255, 255);
+  margin-top: 40px;
 }
 .navig{
 	
@@ -15,22 +35,57 @@ body{
     width: 50%;
     background-size: cover;
     background-repeat: no-repeat;
+    height: auto;
 }
+
 .navig1{
     display: flex;
 }
 .navig1 > div {
-  margin:0 2em;
+  margin: 1em;
 }
 .a{
-    color:yellow;
+    color:black;
 }
 .b{
-    color:white
+    color:rgb(0, 0, 0)
 }
 .c{
-    color: wheat;
+    color: black;
 }
 .d{
-    color:white;
+    color:black;
+}
+.e{
+    color: black;
+}
+
+.f{
+color:  rgb(238, 215, 13);
+}
+
+.form{
+    height: 500;
+}
+.body-begin > h1 {
+    font-size: 40px;
+    color: white;
+    margin-top: 100px;
+    margin-left: 5%;
+}
+.body-begin > h2{
+    margin-left: 5%;
+    margin-top: 100px;
+}
+.wrapper > header{
+    margin-left: 5%;
+    font-size: 30;
+}
+.body-begin > p{
+    margin-left: 5%;
+    font: bold;
+    
+}
+span{
+    line-height: 1.6;
 }
