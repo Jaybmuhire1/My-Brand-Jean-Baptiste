@@ -1,0 +1,9 @@
+
+.signup{
+    width: 40%;
+    box-shadow: 0 0 3px 0 rgb(0, 0, 0, 0.3);
+    background: #fff;
+    padding: 20px;
+    margin: 1% auto 0;
+    text-align: left;
+   }
