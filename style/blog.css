@@ -1,0 +1,32 @@
+
+body{
+    background-image: url(../asset/image/About.jpg);
+    background-repeat: no-repeat;
+    width: auto;
+    height: 700px;
+}
+
+
+
+.signup{
+    width: 40%;
+    box-shadow: 0 0 3px 0 rgb(0, 0, 0, 0.3);
+    background: #fff;
+    padding: 20px;
+    margin: 1% auto 0;
+    text-align: center;
+    margin-top: 200px;
+
+   }
+.Login{
+    width: 40%;
+    box-shadow: 0 0 3px 0 rgb(0, 0, 0, 0.3);
+    background: #fff;
+    padding: 20px;
+    margin: 1% auto 0;
+    text-align: center;
+    margin-top: 20px;
+}
+.input-box{
+    align-items: center;
+}
