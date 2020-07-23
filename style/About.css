@@ -1,7 +1,105 @@
 body{
-   background-color: chocolate;
-     margin-left: 5%;
+  height: 700px;
+  display: flex;
+  margin: 0px;
 }
+
+@import url(http://fonts.googleapis.com/css?family=Kameron:400,700);
+.jay{
+  background-color: chocolate;
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 50%;
+  height: auto;
+}
+
+.kazzy{
+    background-image: url(../asset/image/Profile2.jpg);
+    width: 50%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: auto;
+}
+.jay1{
+  margin-left: 30px;
+}
+.jim{
+  text-decoration: none;
+  color: white;
+}
+
+.navig1{
+    display: flex;
+}
+.navig1 > div {
+  margin: 2em;
+}
+.a{
+    color:black;
+    font-weight: bold;
+    text-decoration: none;
+}
+.b{
+    color:black;
+    font-weight: bold;
+    text-decoration: none;
+}
+.c{
+    color:black;
+    font-weight: bold;
+    text-decoration: none;
+}
+.d{
+    color: black;
+    font-weight: bold;
+    text-decoration: none;
+}
+.e{color : black;
+    font-weight: bold;
+    text-decoration: none;
+}
+.wrapper > header{
+    margin-left: 5%;
+    font-size: 30;
+}
+.more{
+    margin-top: 180px;
+    text-decoration: none;
+    text-align: center;
+    color: white;
+}
+
+.land > p{
+    margin-top: 200px;
+}
+.land h1{
+    text-align: center;
+}
+   
 span{
     content: "\A";
+}
+.jay1 > h1{
+   font: size 30px;
+}
+
+
+.land{
+  margin-top: 120px;
+  margin-left: 5%;
+}
+.bodyy {
+  margin-top: 180px;
+  font-size: 20px;
+  font-family: "Times New Roman", Times, serif; 
+  text-align: center;
+}
+aside{
+  font-style: none;
+  background-color: chocolate;
+  border: 5px solid black;
+  padding: 20px;
+  width: 120px;
+  height: 120px; 
+  margin: 120px 160px;
 }
