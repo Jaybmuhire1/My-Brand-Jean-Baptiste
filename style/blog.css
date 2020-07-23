@@ -58,9 +58,12 @@ header{
 }
 section h1{
     text-align: center;
-    color: lightblue;
+    color: black;
 }
 section p{
     text-align: center;
     font-size: 30px;
+}
+.uv{
+    text-decoration: none;
 }

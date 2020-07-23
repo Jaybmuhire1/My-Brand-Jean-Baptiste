@@ -1,93 +1,62 @@
-body{
-    height: 900px;
-    width: 100%;
-    display: flex;
-    margin: 0px;
-    background-color: lightgrey;
-     
-}
-@import url(http://fonts.googleapis.com/css?family=Kameron:400,700);
 .wrapper{
-    background-color: rgb(238, 215, 13);
-    width: 50%;
-    height: auto;
-    background-size: cover;
-    margin: 0px 0px;
-}
-.land{
-    margin-top: 140px;
-    margin-left: 20%;
-}
-
-.bodyy {
-    margin-top: 142px;
-    font-size: 20px;
-    font-family: "Times New Roman", Times, serif; 
-    text-align: center;
-    margin-left: 20px;
-}
-.navig{
-    background-image: url(../asset/image/Profile.jpg);
-    width: 50%;
-    background-size: cover;
-    background-repeat: no-repeat;
-    height: auto;
-}
-
-.navig1{
     display: flex;
-}
-.navig1 > div {
-  margin: 2em;
-}
-.a{
-    color:black;
-    font-weight: bold;
-    text-decoration: none;
-}
-.b{
-    color:black;
-    font-weight: bold;
-    text-decoration: none;
-}
-.c{
-    color:black;
-    font-weight: bold;
-    text-decoration: none;
-}
-.d{
-    color:  rgb(238, 215, 13);
-    font-weight: bold;
-    text-decoration: none;
-}
-.e{color :rgb(238, 215, 13);
-    font-weight: bold;
-    text-decoration: none;
-}
-.wrapper > header{
-    margin-left: 5%;
-    font-size: 30;
-}
-.more{
-    margin-top: 160px;
-    text-decoration: none;
-    text-align: center;
-    color: white;
-}
-.land h1{
-    text-align: center;
-    margin-top: 140px;
-    margin-left: 20px;
+    width: 100vw;
+    height: 100vh;
+    background-color: #e6e208;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
-button{
-    background-color:chocolate;
-    display: inline-block;
-    border-radius: 50%;
-     font-size: 12px;
-     border: 5px solid #080808;
-     transition-duration: 0.4s;
-     height: auto;
-     margin-left: 20px;
+nav{
+    display:flex;
+    justify-content: flex-start;
+    align-items: center;
 }
 
+nav >div{  
+    margin:0 1em;
+}
+
+.nav-link{
+    text-decoration: none;
+    color:black;
+    text-transform: uppercase;
+}
+.container{
+    display: flex;
+    height: 100%;
+}
+
+.left{
+    padding:2em;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+}
+.moreBtn{
+    width: 10em;
+    height: 2em;
+    border-radius: 5px;
+    color:black;
+    font-size: 1rem;
+    border: 2px solid;
+    border-color: black;
+    background-color: chocolate;
+    text-decoration: none;
+}
+.right{
+ width:50%;   
+ background: url(../asset/image/Profile.jpg);
+ background-repeat: no-repeat;
+ background-size: 100% 100%;
+}
+
+#my-img{
+    width: 100%;
+    height:100%;
+}
+.navigg{
+    color: black;
+    text-decoration: none;
+}
