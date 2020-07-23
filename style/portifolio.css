@@ -1,0 +1,57 @@
+body{
+    background-color: yellow ;
+    height:700px;
+    width: auto;
+}
+header{
+    background-image: url(../asset/image/About.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-bottom: 100px;
+    margin-top: auto;
+    height: 200px;
+    width: auto;
+}
+.navig2{
+    background-image: url(../asset/image/Profile.jpg);
+    width: 50%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: auto;
+}
+
+.navig3{
+    display: flex;
+}
+.navig3 > div {
+  margin: 5em;
+}
+.j{
+    color: white;
+    font-weight: bold;
+    text-decoration: none;
+}
+.k{
+    color: white;
+    font-weight: bold;
+    text-decoration: none;
+}
+.l{
+    color: white;
+    font-weight: bold;
+    text-decoration: none;
+}
+.m{
+    color:  white;
+    font-weight: bold;
+    text-decoration: none;
+}
+.n{
+     color:  white;
+    font-weight: bold;
+    text-decoration: none;
+}
+.o{color : white;
+    font-weight: bold;
+    text-decoration: none;
+    display: inline-block;
