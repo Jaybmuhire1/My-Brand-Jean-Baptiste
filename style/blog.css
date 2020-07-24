@@ -1,57 +1,52 @@
 body{
     background-color: yellow ;
-    height:700px;
-    width: auto;
+    height:100vh;
+    width: 100vw;
 }
-header{
-    background-image: url(../asset/image/About.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
-    margin-bottom: 100px;
-    margin-top: auto;
-    height: 200px;
+/* .header-site{
+    margin-bottom: 0vh;
+    height: 10vh;
     width: auto;
 }
 .navig2{
-    background-image: url(../asset/image/Profile.jpg);
-    width: 50%;
-    background-size: cover;
-    background-repeat: no-repeat;
+    width: 100vh;
     height: auto;
-}
+   
+    height: auto;
+} */
 
 .navig3{
     display: flex;
 }
 .navig3 > div {
-  margin: 5em;
+  margin: 4em;
 }
 .j{
-    color: white;
+    color:black;
     font-weight: bold;
     text-decoration: none;
 }
 .k{
-    color: white;
+    color: black;
     font-weight: bold;
     text-decoration: none;
 }
 .l{
-    color: white;
+    color: black;
     font-weight: bold;
     text-decoration: none;
 }
 .m{
-    color:  white;
+    color:  black;
     font-weight: bold;
     text-decoration: none;
 }
 .n{
-     color:  white;
+     color:  black;
     font-weight: bold;
     text-decoration: none;
 }
-.o{color : white;
+.o{color : black;
     font-weight: bold;
     text-decoration: none;
     display: inline-block;

@@ -5,14 +5,15 @@
   box-sizing: border-box;
 }
 .wrapper{
+  background-color: white;
   width: 100vw;
-  
   height: 100vh;
 }
 .test{
 
   display: flex;
   justify-content: space-between;
+  align-items: center;
 }
 .imagy{
   width: 50px;
@@ -21,6 +22,9 @@
 }
 .left{
   background: url(../asset/image/Profile.jpg);
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  background-position: bottom;
   width: 50vw;
   height: 90vh;
 }
@@ -31,6 +35,8 @@
 }
 .container{
   display: flex;
+  width: 100vw;
+  justify-content: space-between;
 }
 input[type=text] {
   width: 100%;
@@ -57,4 +63,7 @@ input[type=submit]{
   text-decoration: none;
   margin: 4px 2px;
   cursor: pointer;
+}
+nav{
+  display: flex;
 }
