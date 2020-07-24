@@ -1,3 +1,7 @@
+*{
+    margin: 0em;
+} 
+
 .wrapper{
     display: flex;
     width: 100vw;
