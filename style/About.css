@@ -1,12 +1,13 @@
 body{
-  height: 700px;
+  height: 100vh;
   display: flex;
-  margin: 0px;
+  margin: 0;
+  padding: 0;
 }
 
 @import url(http://fonts.googleapis.com/css?family=Kameron:400,700);
 .jay{
-  background-color: chocolate;
+  background-color: white;
   background-size: cover;
   background-repeat: no-repeat;
   width: 50%;
@@ -25,7 +26,7 @@ body{
 }
 .jim{
   text-decoration: none;
-  color: white;
+  color: black;
 }
 
 .navig1{
@@ -96,7 +97,7 @@ span{
 }
 aside{
   font-style: none;
-  background-color: chocolate;
+  background-color: white;
   border: 5px solid black;
   padding: 20px;
   width: 120px;
