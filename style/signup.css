@@ -54,6 +54,7 @@ input[type=submit]{
       width: 50%;
       background-image: url(../asset/image/Profile.jpg);
       background-size: contain;
+      background-repeat: no-repeat;
   }
   .container{
       display: flex;
